@@ -280,27 +280,27 @@ body {
 }
 
 
-@media(max-width : 786px) {
+@media(max-width : 455px) {
 
  .hero { 
     background-image: url("../images/header.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    height: auto;
 }
 
 .navbar  {
      display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
+    padding: 10px 30px;
     background-color: white;
       display: flex; 
      justify-content: center; 
      align-items: center; 
-     gap: 80px; 
-     padding: 20px; 
+     gap: 40px; 
+     padding: 10px; 
      background-color: white; 
 }
 
@@ -319,7 +319,7 @@ body {
 
 /* Logo */
   .logo img { 
-    width: 150px;
+    width: 75px;
     height: auto;
     color: #5c1025; 
   } 
@@ -333,12 +333,12 @@ body {
    display: flex;
    align-items: center;
    justify-content: flex-start;
-   padding: 60px 5%;
+   padding: 30px 2.5%;
     background-image: url("../images/menu.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    height: auto;
     
  }
 
@@ -360,7 +360,7 @@ body {
  .menu-content .btn {
     
     padding: 10px;
-    width: 150px;
+    width: 100%px;
     font-weight: bold;
     background-color: #5c1025;
     border-radius: 30px;
@@ -374,11 +374,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;  
-  min-height: 500px;          
+  height: auto;         
   background-image: url("../images/Efforts.png");
   background-size: cover;      
   background-position: left center; 
-  padding: 60px 5%;  
+  padding: 30px 2.5%;  
 }
 
 .efforts-content h2 {
@@ -393,7 +393,7 @@ body {
 .efforts-content button {
    background-color: #5c1025;
    color: #fff;
-   width: 150px;
+   width: 100%px;
    padding: 10px;
    border-radius: 30px;
    font-weight: bold;
@@ -405,12 +405,12 @@ body {
    display: flex;
    justify-content: flex-start;
    align-items: center;
-   padding: 60px 5%;
+   padding: 30px 2.5%;
    background-image: url("../images/story.png");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   min-height: 500px;
+   height: auto;
 }
 
 .story-content h1 {
@@ -424,7 +424,7 @@ body {
 }
 
 .story-content button {
-   width: 150px;
+   width: 100%px;
    padding: 10px;
    background-color: #5c1025;
    border-radius: 30px;
@@ -440,12 +440,12 @@ body {
    display: flex;
    align-items: center;
    justify-content: flex-start;
-   padding: 60px 5%;
+   padding: 30px 2.5%;
    background-image: url("../images/apps.png");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   min-height: 500px;
+   height: auto;
 }
 
 .apps-content h1 {
@@ -460,7 +460,7 @@ body {
 }
 
 .apps-content .apps-btn {
-   width: 150px;
+   width: 100%;
    padding: 10px;
    background-color: #5c1025;
    color: #fff;
@@ -470,7 +470,7 @@ body {
 }
 
 .apps-content .store-btn {
-    width: 150px;
+    width: 100%px;
    padding: 10px;
    background-color: #5c1025;
    color: #fff;
@@ -490,7 +490,7 @@ body {
   background-color: #cc2252;   /* Costa dark maroon */
   padding: 60px 80px;
   color: white;
-  min-height: 50vh;
+  height: auto;
 }
 
 .footer-container {
@@ -500,7 +500,7 @@ body {
 }
 
 .footer-column {
-  width: 250px;
+  width: 125px;
 }
 
 .footer-column h3 {
@@ -533,9 +533,9 @@ body {
     background-color: #5c1025;
     display: flex;
     align-items: center;
-    padding: 60px 5%;
+    padding: 30px 2.5%;
     justify-content: flex-start;
-    min-height: 50vh;
+    height: auto;
 }
 
 .bottom-content a {
